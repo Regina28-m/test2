@@ -1,6 +1,9 @@
-// TODO: write your code here
-import sum from './basic';
+import sortedHealth from "./health";
 
-console.log('worked');
+const arr = [
+  { name: "bowman", health: 81 },
+  { name: "swordsman", health: 13 },
+  { name: "magician", health: 67 },
+];
 
-console.log(sum([1, 2]));
+console.log(sortedHealth(arr));
